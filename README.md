@@ -1,1 +1,1 @@
-[DEMO LINK](https://github.com/vadim-os/nimble_test_task/)
+[DEMO LINK](https://vadim-os.github.io//nimble_test_task/)
