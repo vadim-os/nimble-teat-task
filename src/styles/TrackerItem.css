@@ -1,0 +1,76 @@
+.tracker {
+  width: 558px;
+  height: 60px;
+  border-top: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 17px;
+  line-height: 65px;
+  color: #000000;
+  font-family: "PT Sans";
+}
+
+.started {
+  color: #3faf6c;
+  background-color: #fdfdf6;
+}
+
+.tracker-title {
+  margin-left: 20px;
+  margin-right: 10px;
+  font-weight: 700;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.tracker-time {
+  font-weight: 700;
+  margin-right: 20px;
+}
+
+.tracker-controls {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.tracker-btn {
+  border-radius: 50%;
+  border: none;
+  outline: none;
+  background: transparent;
+  cursor: pointer;
+  padding: 0;
+  margin: 5px;
+}
+
+.tracker-btn i {
+  font-size: 32px;
+}
+
+.remove {
+  color: #d2697a;
+}
+
+@media screen and (max-width: 560px) {
+  .tracker {
+    width: 100%;
+    font-size: 13px;
+  }
+
+  .tracker-time {
+    margin-right: 10px;
+  }
+
+  .tracker-title {
+    font-weight: 400;
+  }
+
+  .tracker-btn i {
+    font-size: 28px;
+  }
+}

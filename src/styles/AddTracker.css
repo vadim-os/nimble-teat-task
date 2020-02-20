@@ -1,0 +1,54 @@
+.add {
+  width: 100%;
+
+}
+.add-form {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+    width: 558px;
+  height: 46px;
+  border-radius: 23px;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  margin: 0 auto 30px;
+}
+
+.add-input {
+  width: 510px;
+  border: none;
+  outline: none;
+  font-size: 17px;
+  line-height: 65px;
+  color: #000000;
+  font-family: "PT Sans";
+  font-weight: 400;
+  margin: 10px 0 10px 10px;
+}
+
+.add-btn {
+  border-radius: 50%;
+  border: none;
+  outline: none;
+  background: transparent;
+  cursor: pointer;
+  padding: 0;
+}
+
+.material-icons.play {
+  font-size: 44px;
+  color: #3faf6c;
+}
+
+.material-icons.play:hover {
+  font-size: 48px;
+  position: relative;
+  top: -2px;
+  left: 1px;
+}
+
+@media screen and (max-width: 560px) {
+  .add-form {
+    width: 100%;
+  }
+}

@@ -1,0 +1,17 @@
+.trackers-container {
+  min-width: 320px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  font-size: 38px;
+  line-height: 65px;
+  color: #000000;
+  font-family: "PT Sans";
+  font-weight: 700;
+}
+
+
