@@ -1,3 +1,7 @@
+body {
+  margin: 0;
+}
+
 .trackers-container {
   min-width: 320px;
   margin: auto;
